@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* make the text un select able */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+i {
+    color: #efefef;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.5rem;
+    transition: all 0.5s;
+}
+
+.image { 
+    border: 6px solid #00c785;
+    border-width: 3px;
+    border-radius: 15px;
+    box-shadow: #1a1a1a 0px 0px 15px 0px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 3rem; */
+    padding-left: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.btn {
+    background-color: #0D0E12;
+    color: #e7e7e7;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #003e39;
+    color: #fff;
+    transition: all 0.5s;
+
+}
+
+.text {
+    font-weight: 500;
+}
+
+.text > p {
+    font-size: 1.2rem;
+    color: #d1d1d1;
+    margin-bottom: 0.5rem;
+}
